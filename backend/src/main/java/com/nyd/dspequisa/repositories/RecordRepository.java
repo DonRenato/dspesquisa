@@ -1,9 +1,11 @@
 package com.nyd.dspequisa.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-import com.nyd.dspequisa.entities.Genre;
+import com.nyd.dspequisa.entities.Record;
 
-public interface RecordRepository extends JpaRepository<Genre, Long>{
+@Repository
+public interface RecordRepository extends JpaRepository<Record, Long>{
 
 }
