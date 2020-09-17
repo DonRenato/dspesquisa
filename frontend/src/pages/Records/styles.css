@@ -4,10 +4,6 @@
     margin-bottom: 50px;
     padding-top: 50px;
   }
-  
-  .filters-container.records-actions {
-    justify-content: flex-end;
-  }
    
   .records-table {
     width: 100%;
