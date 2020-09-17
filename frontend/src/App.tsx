@@ -4,13 +4,7 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       
-        <p>
-          Hello World
-        </p>
-       
-      </header>
+     <h1>Hello DevSuperior</h1>
     </div>
   );
 }
